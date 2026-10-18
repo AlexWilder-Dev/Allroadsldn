@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>All Roads · Modern comfort dining in Brixton Village</title>
+    <meta
+      name="description"
+      content="Comfort food from a Caribbean upbringing, made for sharing. The All Roads supper club’s first permanent home, at 44 Atlantic Road, Brixton. Book a table, check tonight’s hours, see the menu."
+    />
+    <meta name="theme-color" content="#572b32" />
+    <link rel="canonical" href="https://alexwilder-dev.github.io/all-roads/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="All Roads" />
+    <meta property="og:title" content="All Roads · Modern comfort dining in Brixton Village" />
+    <meta
+      property="og:description"
+      content="Comfort food from a Caribbean upbringing, made for sharing. The All Roads supper club’s first permanent home, at 44 Atlantic Road, Brixton."
+    />
+    <meta property="og:url" content="https://alexwilder-dev.github.io/all-roads/" />
+    <meta property="og:image" content="https://alexwilder-dev.github.io/all-roads/og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="A table at All Roads covered in sharing plates and cocktails, with the All Roads logo"
+    />
+    <meta property="og:locale" content="en_GB" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="All Roads · Modern comfort dining in Brixton Village" />
+    <meta
+      name="twitter:description"
+      content="Comfort food from a Caribbean upbringing, made for sharing. The All Roads supper club’s first permanent home, at 44 Atlantic Road, Brixton."
+    />
+    <meta name="twitter:image" content="https://alexwilder-dev.github.io/all-roads/og.jpg" />
+    <meta
+      name="twitter:image:alt"
+      content="A table at All Roads covered in sharing plates and cocktails, with the All Roads logo"
+    />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="https://alexwilder-dev.github.io/all-roads/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="https://alexwilder-dev.github.io/all-roads/favicon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://alexwilder-dev.github.io/all-roads/apple-touch-icon.png" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+    (() => {
+      try {
+        if (location.hash === '#me') localStorage.setItem('me', '1');
+        if (localStorage.getItem('me') || sessionStorage.getItem('pinged')) return;
+        sessionStorage.setItem('pinged', '1');
+      } catch (e) {}
+      const v = new URLSearchParams(location.search).get('v') || 'untagged';
+      fetch('https://ntfy.sh/YOUR-NTFY-TOPIC', {
+        method: 'POST', body: `${v} opened ${location.pathname}`, keepalive: true
+      }).catch(() => {});
+    })();
+    </script>
+  </body>
+</html>

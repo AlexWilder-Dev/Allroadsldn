@@ -1,0 +1,240 @@
+/* Colours come from the room and their own print:
+   green  - shopfront fascia, tiled bar, their current site, the dessert sheet
+   burgundy - their theme colour #572b32 and the food menu ink
+   oxblood - the velvet curtain and the logo's drop shadow
+   brick  - the hand-drawn logo
+   terracotta / plaster - the dining room walls
+   orange - the logo as it appears on mugs and their header
+   cream  - the logo's letter faces and the menu paper */
+:root {
+  --green-950: #0e1f17;
+  --green-900: #132a1f;
+  --green-800: #1b3834;
+  --tile: #24503a;
+  --tile-hi: #3a6b51;
+  --burgundy: #572b32;
+  --burgundy-ink: #4c2b34;
+  --oxblood: #5a1019;
+  --velvet: #7a1a26;
+  --velvet-hi: #a3303b;
+  --brick: #b44e37;
+  --terracotta: #c4836f;
+  --plaster: #ead6ca;
+  --orange: #dd7d1c;
+  --cream: #fff7db;
+  --paper: #f7f0e1;
+  --ink: #1d1517;
+  --muted: rgba(255, 247, 219, 0.72);
+  --rule: rgba(255, 247, 219, 0.18);
+
+  --display: 'Bebas Neue', 'Arial Narrow', sans-serif;
+  --serif: 'Crimson Pro Variable', 'Crimson Pro', Georgia, serif;
+  --sans: 'Archivo Variable', 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+
+  --gutter: clamp(16px, 4.5vw, 48px);
+  --max: 1240px;
+  --radius: 14px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--green-900);
+  color: var(--cream);
+  font-family: var(--serif);
+  font-size: 1.125rem;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.skip {
+  position: absolute;
+  left: 12px;
+  top: -60px;
+  z-index: 100;
+  background: var(--cream);
+  color: var(--ink);
+  padding: 10px 14px;
+  font-family: var(--sans);
+  font-weight: 700;
+  border-radius: 8px;
+}
+.skip:focus {
+  top: 12px;
+}
+
+.wrap {
+  width: 100%;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* ------------------------------------------------------------ type */
+
+.display {
+  font-family: var(--display);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 0.88;
+  margin: 0;
+}
+
+.kicker {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin: 0 0 0.9rem;
+  color: var(--orange);
+}
+
+.lede {
+  font-size: clamp(1.2rem, 1.05rem + 0.6vw, 1.5rem);
+  line-height: 1.4;
+  margin: 0;
+  max-width: 34ch;
+}
+
+.label {
+  font-family: var(--sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* ------------------------------------------------------------ buttons */
+
+.btn {
+  --btn-bg: var(--orange);
+  --btn-fg: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6em;
+  min-height: 52px;
+  padding: 0 1.4rem;
+  border-radius: 999px;
+  border: 0;
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.25s var(--ease), background-color 0.25s var(--ease);
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:hover {
+  transform: translateY(-2px);
+}
+.btn:active {
+  transform: translateY(0) scale(0.98);
+}
+.btn svg {
+  width: 1.1em;
+  height: 1.1em;
+  flex: none;
+}
+
+.btn--ghost {
+  --btn-bg: transparent;
+  --btn-fg: var(--cream);
+  box-shadow: inset 0 0 0 1.5px var(--rule);
+}
+.btn--ghost:hover {
+  box-shadow: inset 0 0 0 1.5px var(--cream);
+}
+
+.btn--cream {
+  --btn-bg: var(--cream);
+  --btn-fg: var(--burgundy-ink);
+}
+
+.textlink {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
+  padding-bottom: 2px;
+}
+
+/* ------------------------------------------------------------ media */
+
+.photo {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--green-800);
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photo figcaption {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  padding-top: 0.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

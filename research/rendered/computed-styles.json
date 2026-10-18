@@ -1,0 +1,682 @@
+## https://www.allroadsldn.com/ {
+ "body": [
+  {
+   "sel": "body",
+   "text": "RESERVATIONS\nMENUS\nEGIFT VOUCHERS\nCONTAC",
+   "font": "Inter, helvetica, arial, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgb(19, 42, 31)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "h": [
+  {
+   "sel": "h1,h2,h3",
+   "text": "\n\t\t\t\tShopping Basket\n\t\t\t",
+   "font": "\"Playfair Display\"",
+   "size": "14px",
+   "weight": "700",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "nav": [
+  {
+   "sel": "nav a, header a",
+   "text": "\n\t\t\t\t\t\tReservations \n\t\t\t\t\t",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "nav a, header a",
+   "text": "\n\t\t\t\t\t\tMenus \n\t\t\t\t\t",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "nav a, header a",
+   "text": "\n\t\t\t\t\t\tEGift Vouchers \n\t\t\t\t\t",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "p": [
+  {
+   "sel": "p",
+   "text": "You don’t have any items in your basket.",
+   "font": "\"Libre Franklin\"",
+   "size": "15px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "p",
+   "text": "Stay Connected\n",
+   "font": "\"Libre Franklin\"",
+   "size": "21.0125px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "p",
+   "text": "© 2026",
+   "font": "\"Libre Franklin\"",
+   "size": "15px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "btn": [
+  {
+   "sel": "button",
+   "text": "\n",
+   "font": "Arial",
+   "size": "13.3333px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "button",
+   "text": " \n\n\t\tSign In\n\t",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(155, 128, 74)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "button",
+   "text": " \n\t\t\t\tCheckout\n\t\t\t ",
+   "font": "\"Libre Franklin\"",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgb(155, 128, 74)",
+   "ls": "-0.14px",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "footer": [
+  {
+   "sel": "footer, footer a",
+   "text": "Reservations\nMenus\nEGift Vouchers\nContac",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "footer, footer a",
+   "text": "Reservations",
+   "font": "\"Libre Franklin\"",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "0.14px",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "footer, footer a",
+   "text": "Menus",
+   "font": "\"Libre Franklin\"",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "0.14px",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "fonts": [
+  "VideoJS 400 normal unloaded",
+  "Karla 400 normal unloaded",
+  "Karla 400 normal unloaded",
+  "Playfair Display 400 normal loaded",
+  "Playfair Display 500 normal unloaded",
+  "Playfair Display 600 normal unloaded",
+  "Playfair Display 700 normal unloaded",
+  "Playfair Display 800 normal unloaded",
+  "Playfair Display 900 normal unloaded",
+  "Libre Franklin 300 normal unloaded",
+  "Libre Franklin 400 normal loaded",
+  "Libre Franklin 500 normal unloaded",
+  "Libre Franklin 600 normal loaded",
+  "Libre Franklin 700 normal unloaded",
+  "Libre Franklin 800 normal unloaded",
+  "Libre Franklin 900 normal unloaded",
+  "Inter 400 normal unloaded",
+  "Inter 500 normal unloaded",
+  "Inter 600 normal unloaded",
+  "Inter 700 normal unloaded"
+ ],
+ "links": [
+  "https://www.instagram.com/allroads_ldn",
+  "https://www.tiktok.com/@allroadsldn",
+  "https://policies.google.com/privacy",
+  "https://policies.google.com/terms"
+ ]
+}
+## https://www.allroadsldn.com/reservations {
+ "body": [
+  {
+   "sel": "body",
+   "text": "RESERVATIONS\nMENUS\nEGIFT VOUCHERS\nCONTAC",
+   "font": "Inter, helvetica, arial, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgb(19, 42, 31)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "h": [
+  {
+   "sel": "h1,h2,h3",
+   "text": "\n\t\t\t\tShopping Basket\n\t\t\t",
+   "font": "\"Playfair Display\"",
+   "size": "14px",
+   "weight": "700",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "h1,h2,h3",
+   "text": "Large Parties 7+ & Private Hire",
+   "font": "\"Playfair Display\"",
+   "size": "41.2905px",
+   "weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "-0.412905px",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "h1,h2,h3",
+   "text": "Bottomless Drinks",
+   "font": "\"Playfair Display\"",
+   "size": "41.2905px",
+   "weight": "400",
+   "color": "rgb(248, 247, 247)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "-0.412905px",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "nav": [
+  {
+   "sel": "nav a, header a",
+   "text": "\n\t\t\t\t\t\tReservations \n\t\t\t\t\t",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "nav a, header a",
+   "text": "\n\t\t\t\t\t\tMenus \n\t\t\t\t\t",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "nav a, header a",
+   "text": "\n\t\t\t\t\t\tEGift Vouchers \n\t\t\t\t\t",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "p": [
+  {
+   "sel": "p",
+   "text": "You don’t have any items in your basket.",
+   "font": "\"Libre Franklin\"",
+   "size": "15px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "p",
+   "text": "RESERVATIONS",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "0.16px",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "p",
+   "text": "Please send an email to info@allroadsldn",
+   "font": "\"Libre Franklin\"",
+   "size": "15px",
+   "weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "btn": [
+  {
+   "sel": "button",
+   "text": "\n",
+   "font": "Arial",
+   "size": "13.3333px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "button",
+   "text": " \n\n\t\tSign In\n\t",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(155, 128, 74)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "button",
+   "text": " \n\t\t\t\tCheckout\n\t\t\t ",
+   "font": "\"Libre Franklin\"",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgb(155, 128, 74)",
+   "ls": "-0.14px",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "footer": [
+  {
+   "sel": "footer, footer a",
+   "text": "Reservations\nMenus\nEGift Vouchers\nContac",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "footer, footer a",
+   "text": "Reservations",
+   "font": "\"Libre Franklin\"",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "0.14px",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "footer, footer a",
+   "text": "Menus",
+   "font": "\"Libre Franklin\"",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "0.14px",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "fonts": [
+  "VideoJS 400 normal unloaded",
+  "Karla 400 normal unloaded",
+  "Karla 400 normal unloaded",
+  "Playfair Display 400 normal loaded",
+  "Playfair Display 500 normal unloaded",
+  "Playfair Display 600 normal unloaded",
+  "Playfair Display 700 normal unloaded",
+  "Playfair Display 800 normal unloaded",
+  "Playfair Display 900 normal unloaded",
+  "Libre Franklin 300 normal unloaded",
+  "Libre Franklin 400 normal loaded",
+  "Libre Franklin 500 normal unloaded",
+  "Libre Franklin 600 normal loaded",
+  "Libre Franklin 700 normal loaded",
+  "Libre Franklin 800 normal unloaded",
+  "Libre Franklin 900 normal unloaded",
+  "Inter 400 normal unloaded",
+  "Inter 500 normal unloaded",
+  "Inter 600 normal unloaded",
+  "Inter 700 normal unloaded"
+ ],
+ "links": [
+  "https://www.sevenrooms.com/explore/allroads/reservations/create/search",
+  "https://www.instagram.com/allroads_ldn",
+  "https://www.tiktok.com/@allroadsldn",
+  "https://policies.google.com/privacy",
+  "https://policies.google.com/terms"
+ ]
+}
+## https://www.allroadsldn.com/contact-us {
+ "body": [
+  {
+   "sel": "body",
+   "text": "RESERVATIONS\nMENUS\nEGIFT VOUCHERS\nCONTAC",
+   "font": "Inter, helvetica, arial, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgb(19, 42, 31)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "h": [
+  {
+   "sel": "h1,h2,h3",
+   "text": "\n\t\t\t\tShopping Basket\n\t\t\t",
+   "font": "\"Playfair Display\"",
+   "size": "14px",
+   "weight": "700",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "h1,h2,h3",
+   "text": "Contact us",
+   "font": "\"Playfair Display\"",
+   "size": "41.2905px",
+   "weight": "400",
+   "color": "rgb(248, 247, 247)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "-0.412905px",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "h1,h2,h3",
+   "text": "Location & Hours",
+   "font": "\"Playfair Display\"",
+   "size": "29.4489px",
+   "weight": "400",
+   "color": "rgb(248, 247, 247)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "-0.294489px",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "nav": [
+  {
+   "sel": "nav a, header a",
+   "text": "\n\t\t\t\t\t\tReservations \n\t\t\t\t\t",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "nav a, header a",
+   "text": "\n\t\t\t\t\t\tMenus \n\t\t\t\t\t",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "nav a, header a",
+   "text": "\n\t\t\t\t\t\tEGift Vouchers \n\t\t\t\t\t",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "p": [
+  {
+   "sel": "p",
+   "text": "You don’t have any items in your basket.",
+   "font": "\"Libre Franklin\"",
+   "size": "15px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "p",
+   "text": "Get in touch with us and let us know if ",
+   "font": "\"Libre Franklin\"",
+   "size": "15px",
+   "weight": "400",
+   "color": "rgb(248, 247, 247)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "p",
+   "text": "All Roads Brixton\n44 Atlantic Road\nLondo",
+   "font": "\"Libre Franklin\"",
+   "size": "15px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "btn": [
+  {
+   "sel": "button",
+   "text": "\n",
+   "font": "Arial",
+   "size": "13.3333px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "button",
+   "text": " \n\n\t\tSign In\n\t",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(155, 128, 74)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "button",
+   "text": " \n\t\t\t\tCheckout\n\t\t\t ",
+   "font": "\"Libre Franklin\"",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgb(155, 128, 74)",
+   "ls": "-0.14px",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "footer": [
+  {
+   "sel": "footer, footer a",
+   "text": "Reservations\nMenus\nEGift Vouchers\nContac",
+   "font": "\"Libre Franklin\"",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "normal",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "footer, footer a",
+   "text": "Reservations",
+   "font": "\"Libre Franklin\"",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "0.14px",
+   "tt": "none",
+   "style": "normal"
+  },
+  {
+   "sel": "footer, footer a",
+   "text": "Menus",
+   "font": "\"Libre Franklin\"",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(242, 237, 227)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "ls": "0.14px",
+   "tt": "none",
+   "style": "normal"
+  }
+ ],
+ "fonts": [
+  "VideoJS 400 normal unloaded",
+  "Karla 400 normal unloaded",
+  "Karla 400 normal unloaded",
+  "Playfair Display 400 normal loaded",
+  "Playfair Display 500 normal unloaded",
+  "Playfair Display 600 normal unloaded",
+  "Playfair Display 700 normal unloaded",
+  "Playfair Display 800 normal unloaded",
+  "Playfair Display 900 normal unloaded",
+  "Libre Franklin 300 normal unloaded",
+  "Libre Franklin 400 normal loaded",
+  "Libre Franklin 500 normal unloaded",
+  "Libre Franklin 600 normal loaded",
+  "Libre Franklin 700 normal unloaded",
+  "Libre Franklin 800 normal unloaded",
+  "Libre Franklin 900 normal unloaded",
+  "Inter 400 normal unloaded",
+  "Inter 500 normal unloaded",
+  "Inter 600 normal unloaded",
+  "Inter 700 normal unloaded"
+ ],
+ "links": [
+  "https://policies.google.com/privacy",
+  "https://policies.google.com/terms",
+  "tel:07913 172857",
+  "https://www.instagram.com/allroads_ldn",
+  "https://www.tiktok.com/@allroadsldn",
+  "https://policies.google.com/privacy",
+  "https://policies.google.com/terms"
+ ]
+}
