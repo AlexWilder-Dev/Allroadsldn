@@ -14,7 +14,7 @@ npm run preview    # serve dist/ at http://localhost:4173/all-roads/
 npm run check:meta # verify link-preview tags and og.jpg in dist/
 ```
 
-Built with Vite, React, TypeScript and Framer Motion. It uses HashRouter so it works on GitHub Pages under `/all-roads/`. Pushing to `main` deploys through `.github/workflows/deploy.yml`.
+Built with Vite, React, TypeScript and Framer Motion. It uses HashRouter so it works on GitHub Pages under `/all-roads/`. Pushing to the default branch deploys through `.github/workflows/deploy.yml`, which builds for whatever URL GitHub Pages serves the repo at.
 
 ## Where things live
 
