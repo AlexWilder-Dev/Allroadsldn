@@ -3,7 +3,7 @@
 import sharp from 'sharp';
 import { readFileSync, statSync } from 'node:fs';
 
-const SITE = 'https://alexwilder-dev.github.io/all-roads/';
+const SITE = (process.env.SITE_URL || 'https://alexwilder-dev.github.io/all-roads/').replace(/\/?$/, '/');
 const html = readFileSync('dist/index.html', 'utf8');
 const head = html.slice(0, html.indexOf('</head>'));
 let failed = false;
